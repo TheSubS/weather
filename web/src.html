@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Источники</title>
+
+	<script src="eel.js"></script>
+	<script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+	<link rel="icon" type="image/png" href="/unknown.png">
+	
+	<link rel="stylesheet" href="main.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Finlandica&display=swap" rel="stylesheet">
+</head>
+<body>
+	
+	<div id="info"><h1>❤Всей командой выражаем огромное спасибо:</h1><b><img draggable="false" class="emoji" alt="🖼️" src="https://twemoji.maxcdn.com/v/14.0.2/72x72/1f5bc.png" width="30" height="30"><a href="https://icons8.com/">Icons8.com</a></b> - иконки в приложении;<br><b><img draggable="false" class="emoji" alt="🤔" src="https://twemoji.maxcdn.com/v/14.0.2/72x72/1f914.png" width="30" height="30"><a href="https://twemoji.twitter.com/">Twemoji</a></b> - эмодзи на сайте.</div>
+
+	<button id="switch">Вернуться назад</button>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script type="text/javascript">	
+
+		jQuery('#switch').on('click', function() {
+			history.go(-1);
+	});	
+	</script>
+	<script>
+	twemoji.parse(document.body)
+	</script>
+	<div id="copyright">©️TheSub, 2022.</div>
+</body>
+</html>

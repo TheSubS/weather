@@ -6,7 +6,7 @@ from pyowm.utils.config import get_default_config # файлы конфигур�
 config_dict = get_default_config() # получение файла конфигурации PYOWM
 config_dict['language'] = 'ru' # язык PYOWM
 
-owm = OWM('6d00d1d4e704068d70191bad2673e0cc', config_dict) # API-токен OpenWeatherMap
+owm = OWM('YOUR_API_KEY', config_dict) # API-токен OpenWeatherMap
 
 @eel.expose # скрипт на странице
 def get_weather(place): # получение погоды в °C
